@@ -1,0 +1,2 @@
+1. The bug was that the program treated the two numbers as strings rather than integers and concatenated them rathed than adding the values together. For instance, 4 + 1 would be equivalent to '41' rather than the integer 5. 
+2. I fixed the code by editing the line that calculates result. I used parseInt in order to ensure both num1 and num2 are integers before adding them together to get result. I tested it, and the code works now. 
